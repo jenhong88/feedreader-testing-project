@@ -1,0 +1,31 @@
+{
+  "name": "packagejson",
+  "version": "1.0.0",
+  "description": "creating package.json file for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp",
+    "git": "git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/frontend-nanodegree-feedreader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udacity/frontend-nanodegree-feedreader/issues"
+  },
+  "homepage": "https://github.com/udacity/frontend-nanodegree-feedreader#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-watch": "^5.0.1"
+  },
+  "dependencies": {
+    "git": "^0.1.5",
+    "gulp-jasmine-browser": "^4.1.0",
+    "jasmine-core": "^3.4.0",
+    "puppeteer": "^1.16.0"
+  }
+}
